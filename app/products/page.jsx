@@ -1,21 +1,5 @@
-  import React from 'react'
-  
-  const Home = () => {
-    return (
-      <div>Home</div>
-    )
-  }
-  
-  export default Home
-  
-  
-  {
-    /*
-    
-
- 
- import { stripe } from "@/utils/connectStripe"
-import ProductCard from "./components/ProductCard"
+import {stripe} from "../../utils/connectStripe"
+import ProductCard from "../components/ProductCard"
  export const getProductsFRomStripe=async()=> { 
   const pro=await stripe.products.list({
 
@@ -64,7 +48,3 @@ const Home = async() => {
 
 export default Home
  
-
-
-    */
-}
